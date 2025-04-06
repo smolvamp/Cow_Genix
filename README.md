@@ -1,68 +1,77 @@
 # 🐄 Cow Genix - Indigenous Cow Breed Protection & Management
 
-Cow Genix is a smart veterinary management web app focused on **reviving and protecting Indian cow breeds**. It enables vets and farmers to track cow health, prevent inbreeding, and ensure better breeding practices.
+**Cow Genix** is an AI-powered veterinary platform built to **protect and promote Indian cow breeds**. Through smart data insights, it helps vets and farmers manage cattle health, track breeding history, and reduce inbreeding risks.
 
-## 🚀 Features
+## 🚀 Key Features
 
 ### 🏥 **Veterinary Management System**
-- **Upload & Access Cow Data**: Vets can record health & breeding details.
-- **Breeding Tree Tracking**: Prevents inbreeding by analyzing family lineage.
-- **Second Opinion System**: Retrieve cow history via tag number.
+- **Cow Data Upload & Access**: Record health, lineage, and breeding history.
+- **Breeding Tree Tracker**: Analyze genetic lineage to prevent inbreeding.
+- **Tag-Based Lookup**: Easily retrieve cow history for second opinions.
 
-### 📢 **Notifications & Health Alerts**
-- **Vaccination & Medication Reminders**
-- **SMS/Push Notifications for Farmers**
+### 📢 **Health Alerts & Notifications**
+- Timely reminders for vaccinations and treatments.
+- SMS and push notifications are available in local languages.
 
-### 🏪 **Local Supply E-Store**
-- Find and order veterinary supplies, fodder, and medicines from local stores.
-- Uses **Google Places API** to list nearby suppliers.
+### 🛒 **Local Supply E-Store**
+- Search and order essentials like fodder, medicines, and tools.
+- Integrated with **Google Places API** for nearby vendors.
 
-### 👨‍⚕️ **Community & Collaboration**
-- **Vet Forums**: Vets can discuss & share knowledge.
-- **Local Vet Directory**: Farmers can contact nearby vets easily.
+### 👨‍⚕️ **Collaboration & Community**
+- **Vet Forums**: Share knowledge and solve regional issues together.
+- **Local Vet Directory**: Farmers can easily find nearby support.
 
 ## 🛠️ Tech Stack
+
 - **Current Development**: MERN Stack (MongoDB, Express.js, React.js, Node.js)
-- **AI Model**: Python (Pandas & Scikit-learn for inbreeding analysis)
-- **APIs**: Google Maps API (Location-based vet stores)
+- **AI Models**: Python (Pandas & Scikit-learn for breeding analysis)
 - **Authentication**: Firebase Auth
+- **APIs**: Google Maps/Places API (for local e-store & location services)
+
+> 🧪 currently in web prototype stage, with plans to migrate to Flutter for a mobile-first experience.
 
 ## ⚡ Quick Setup (MERN Stack)
 
 1. **Clone the repo**:
-   ```sh
-   git clone https://github.com/smolvamp/cow-genix.git
+   ```bash
+   git clone https://github.com/sahilchauhan11/cow-genix.git
    cd cow-genix
    ```
+
 2. **Backend Setup**:
-   ```sh
+   ```bash
    cd server
    npm install
    npm start
    ```
+
 3. **Frontend Setup**:
-   ```sh
+   ```bash
    cd client
    npm install
    npm start
    ```
-4. **Database Setup (MongoDB Atlas or Local MongoDB)**
-   - Create a MongoDB Atlas database or run MongoDB locally.
-   - Update the `.env` file with the correct database URI.
 
-## 📌 Future Enhancements
-- AI-powered **cow health analysis**
-- Offline mode for rural areas
-- Multilingual voice-based farmer assistance
-- Migration to Flutter for mobile app development
+4. **MongoDB Setup**:
+   - Use MongoDB Atlas or local MongoDB.
+   - Update your `.env` with the database URI.
+
+## 🌟 Future Enhancements
+
+- AI-based **cow health analysis** for early diagnosis.
+- **Offline-first** experience for low-connectivity areas.
+- **Voice-command & multilingual support** for farmers.
+- Mobile app transition using **Flutter**.
 
 ## 🤝 Contributing
-Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
+
+Do you have ideas or fixes? Pull requests are welcome!
+For major changes, please open an issue first to discuss your ideas.
 
 ## 📜 License
-[MIT License](https://github.com/smolvamp/Cow_Genix/blob/main/LICENSE) - Feel free to modify and use it.
+
+[MIT License](https://github.com/sahilchauhan11/Cow_Genix/blob/main/LICENSE)
 
 ---
 
-🐄 **Cow Genix - Empowering Farmers, Protecting Indigenous Breeds**
-
+🐄 **Cow Genix — Empowering Farmers, Protecting Indigenous Breeds**
